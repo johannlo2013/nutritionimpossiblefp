@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Impossible</title>
+    <script>
+        // JavaScript function to display a random message
+        function displayRandomMessage() {
+            // Array of messages
+            const messages = [
+                "Lay-Z",
+                "Invited you to take a break from eating",
+                "Meal Team Six",
+                "LMAO, look at this photo of you 🤣 <image too big to send>",
+                "Beyontrée",
+                "You look like a 16:9 aspect ratio",
+                "Tua Tacovailoa",
+                "The Kansas City Beefs",
+                "Johnny Depp it in ranch",
+                "Taylor 'not so' Swift",
+                "You are so fat that you need blinkers on your cheeks to switch lanes on the sidewalk",
+                "Travis Eattienne",
+                "You are the reason why they invented double doors",
+                "Does it bounce with maximum efficiency?",
+                "Blud lives in the 'eatstern' time zone",
+                "Dale EarnHeartAttack",
+                "Giannis Entreetokoutmpo",
+                "You look like a can of condensed milk",
+                "<Couldn't invite to party due to weight>",
+                "How's that chair holding up?",
+                "What's your favourite monster truck? Mine is you",
+                "Millie Bobby Brownie",
+                "You look skinnier than tomorrow",
+                "<Earthquake warning evacuations started because you jumped>",
+                "<Added you to a group of Type 2 Diabetes patients>",
+                "Freddy Kroger",
+                "Michelanjello",
+                "Snackael vs the Cheese Shredder",
+                "Billie Jeans don't fit",
+                "EggsEggsEggsTentacion",
+                "Cheese Wiz Khalifa",
+                "San Fatcisco Forky Knifers",
+                "Honey Bun Jovi",
+                "Monty Piethon and the Holy Snack Trail",
+                "IShowFat",
+                "I'm currently on an adventure in your belly button",
+                "Donutello",
+                "Invited you to a double gastric bypass surgery",
+                "The only time zone you live in is calzone",
+                "Your lawyers are from the law offices of Haagen & Daaz",
+                "Your favourite place is Corn on the Cobb County, GA",
+                "You're so fat you wear Christmas stockings as socks",
+                "Bray Weight It: The Eater of Worlds (literally)",
+                "Your parents raised a good man, but you raised your blood pressure too much",
+                "NLE Whopper",
+                "Cyberplump 2077 (lbs)",
+                "Fupacabara",
+                "Earth air and fryer",
+                "They have to make a show called 'I sat down and caused an earthquake' and you are the main character",
+                "Titanic and the man-shaped iceberg"
+            ];
+
+            // Get a random index from the array
+            const randomIndex = Math.floor(Math.random() * messages.length);
+
+            // Get the message at the random index
+            const randomMessage = messages[randomIndex];
+
+            // Display the message in the div with id "messageDisplay"
+            document.getElementById("messageDisplay").innerText = randomMessage;
+        }
+    </script>
+</head>
+<body>
+    <h3>Nutrition Impossible</h3>
+    <p>Get motivation to continue losing fat (especially you, CaseOh)</p>
+    <button onclick="displayRandomMessage()">Get message</button>
+    <div id="messageDisplay" style="margin-top: 20px; font-size: 1.2em;"></div>
+</body>
+</html>
